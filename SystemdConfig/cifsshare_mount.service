@@ -3,9 +3,7 @@ Description=Checko& Mount Azure File Share appdatalocal
 After=network-online.target
 Wants=network-online.target
 
+
 [Service]
 Type=oneshot
 ExecStart=/usr/local/bin/check_cifs_mount.sh
-
-[Install]
-WantedBy=multi-user.target
