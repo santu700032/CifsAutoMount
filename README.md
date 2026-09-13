@@ -30,19 +30,19 @@ The solution:
 
 ```text
 Azure File Shares
- │
- ▼
+       │
+       ▼
  Linux Server
- │
+        │
  ┌──────┴──────┐
- │ │
- ▼ ▼
+ │             │
+ ▼             ▼
 
 check_cifs_ cifs_alert
 mount.sh .sh
 
- │ │
- ▼ ▼
+ │             │
+ ▼             ▼
 
 Auto Email Alerts
 Recovery & Monitoring
